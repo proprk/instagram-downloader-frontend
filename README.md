@@ -1,12 +1,52 @@
-# React + Vite
+# 📸 Instagram Downloader
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app to download Instagram videos, reels, and images using a clean UI and a Node.js backend API.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- **Frontend:** React (Vite) + Tailwind CSS
+- **Backend:** Node.js + Express
+- **Other Tools:** Axios, Cheerio, Helmet, Rate Limiter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+frontend/ → React app (UI)
+backend/ → Node.js + Express API
 
-## Expanding the ESLint configuration
+## ⚡ Features
+- Paste Instagram URL and get downloadable media
+- Supports videos, reels, and images
+- Preview before download
+- Static pages: Privacy Policy, Terms of Service, DMCA
+- AdSense-ready placeholders (for monetization)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Setup Instructions
+1. Clone the repo:
+   ```bash
+   git clone git@github.com:YOUR-USERNAME/instagram-downloader.git
+
+2. Install dependencies:
+    cd frontend && npm install
+    cd ../backend && npm install
+
+3. Run locally:
+
+    # Start backend
+    cd backend && npm run dev
+
+    # Start frontend
+    cd frontend && npm run dev
+
+📜 License
+
+This project is for personal use only. Media belongs to Instagram and respective owners.
+
+
+---
+
+## ✅ Step 3: Commit README
+
+After creating the file, commit it:
+
+```bash
+git add README.md
+git commit -m "Add README.md with project overview"
+git push
